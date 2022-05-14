@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+}
+.full-body {
+  background-image: url(./bgimage.jpg);
+  background-size: cover;
+  /* background-color: aquamarine; */
+  height: 100vh;
+  padding-left: 500px;
+  padding-top: 100px;
+}
+.input-body {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: aliceblue;
+  width: 50%;
+  height: 80px;
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
+.name-input-field {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+.date-input-field {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+.btn-div {
+  display: flex;
+  flex-direction: row;
+  padding-left: 150px;
+}
+.btn {
+  height: 50px;
+  width: 70px;
+  margin-left: 30px;
+}
+.add {
+  background-color: rgb(104, 231, 104);
+}
+.Delete {
+  background-color: rgb(243, 96, 96);
+}
